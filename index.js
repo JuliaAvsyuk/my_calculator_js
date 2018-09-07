@@ -4,7 +4,7 @@ let input = document.getElementById('input'),
     operator = document.querySelectorAll('.operators div'),
     result = document.getElementById('result'),
     clear = document.getElementById('clear'),
-    resultDisplayed = false;
+    resultDisplayed = false; //flag to keep an eye on what output is displayed
 
 for(let i=0; i<number.length;i++){
     number[i].addEventListener("click", function (e) {
